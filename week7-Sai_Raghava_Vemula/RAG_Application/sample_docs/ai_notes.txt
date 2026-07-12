@@ -1,0 +1,200 @@
+ARTIFICIAL INTELLIGENCE — COMPREHENSIVE NOTES
+=================================================
+
+CHAPTER 1: INTRODUCTION TO ARTIFICIAL INTELLIGENCE
+---------------------------------------------------
+
+Artificial Intelligence (AI) is a branch of computer science that aims to create systems capable of performing tasks that normally require human intelligence. These tasks include learning, reasoning, problem-solving, perception, language understanding, and decision-making.
+
+The field was formally founded at the Dartmouth Conference in 1956, where John McCarthy coined the term "Artificial Intelligence". Other pioneers include Alan Turing, Marvin Minsky, Herbert Simon, and Allen Newell.
+
+Key milestones in AI history:
+- 1950: Alan Turing proposes the Turing Test
+- 1956: Dartmouth Conference — birth of AI as a field
+- 1966: ELIZA chatbot created by Joseph Weizenbaum
+- 1997: IBM Deep Blue defeats Garry Kasparov in chess
+- 2011: IBM Watson wins Jeopardy!
+- 2012: AlexNet wins ImageNet competition — deep learning revolution begins
+- 2016: AlphaGo defeats Lee Sedol in Go
+- 2020: GPT-3 demonstrates large language model capabilities
+- 2022: ChatGPT launches, bringing AI to mainstream users
+- 2024: Multimodal AI models become standard (GPT-4o, Gemini, Claude)
+
+
+CHAPTER 2: MACHINE LEARNING FUNDAMENTALS
+-----------------------------------------
+
+Machine Learning (ML) is a subset of AI where systems learn patterns from data without being explicitly programmed.
+
+Types of Machine Learning:
+
+1. Supervised Learning
+   - The model learns from labelled training data.
+   - Examples: classification (spam detection), regression (house price prediction).
+   - Algorithms: Linear Regression, Logistic Regression, Decision Trees, Random Forests, Support Vector Machines (SVM), Neural Networks.
+
+2. Unsupervised Learning
+   - The model finds hidden patterns in unlabelled data.
+   - Examples: customer segmentation, anomaly detection.
+   - Algorithms: K-Means Clustering, DBSCAN, Principal Component Analysis (PCA), Autoencoders.
+
+3. Reinforcement Learning
+   - An agent learns by interacting with an environment and receiving rewards or penalties.
+   - Examples: game playing (AlphaGo), robotics, autonomous driving.
+   - Key concepts: Agent, Environment, State, Action, Reward, Policy.
+
+4. Semi-Supervised Learning
+   - Uses a small amount of labelled data combined with a large amount of unlabelled data.
+   - Useful when labelling data is expensive.
+
+
+CHAPTER 3: DEEP LEARNING
+--------------------------
+
+Deep Learning is a subset of Machine Learning that uses neural networks with many layers (deep neural networks) to model complex patterns.
+
+Key Architectures:
+
+1. Convolutional Neural Networks (CNNs)
+   - Designed for image and spatial data processing.
+   - Key operations: convolution, pooling, fully connected layers.
+   - Applications: image classification, object detection, facial recognition.
+   - Notable models: AlexNet, VGG, ResNet, EfficientNet.
+
+2. Recurrent Neural Networks (RNNs)
+   - Designed for sequential data (text, time series).
+   - Variants: LSTM (Long Short-Term Memory), GRU (Gated Recurrent Unit).
+   - Applications: language modelling, machine translation, speech recognition.
+
+3. Transformers
+   - Introduced in "Attention Is All You Need" (Vaswani et al., 2017).
+   - Based on the self-attention mechanism.
+   - Eliminated the need for recurrence, enabling parallel processing.
+   - Foundation for modern LLMs (BERT, GPT, T5, LLaMA).
+
+4. Generative Adversarial Networks (GANs)
+   - Two competing networks: Generator and Discriminator.
+   - Applications: image generation, style transfer, data augmentation.
+
+5. Diffusion Models
+   - Generate data by learning to reverse a noise-adding process.
+   - Applications: image generation (Stable Diffusion, DALL-E), video synthesis.
+
+
+CHAPTER 4: NATURAL LANGUAGE PROCESSING (NLP)
+----------------------------------------------
+
+NLP enables computers to understand, interpret, and generate human language.
+
+Key NLP Tasks:
+- Tokenisation: splitting text into tokens (words or subwords).
+- Named Entity Recognition (NER): identifying entities (people, places, organisations).
+- Sentiment Analysis: determining the emotional tone of text.
+- Machine Translation: translating between languages.
+- Text Summarisation: condensing documents.
+- Question Answering: extracting answers from text.
+
+Modern NLP is dominated by Transformer-based models:
+- BERT (Bidirectional Encoder Representations from Transformers): excels at understanding tasks.
+- GPT (Generative Pre-trained Transformer): excels at text generation.
+- T5 (Text-to-Text Transfer Transformer): treats all NLP tasks as text-to-text.
+
+Retrieval-Augmented Generation (RAG):
+- Combines retrieval from a knowledge base with generative models.
+- Reduces hallucination by grounding answers in retrieved documents.
+- Architecture: Retriever (e.g., FAISS, vector database) + Generator (e.g., GPT, Gemini).
+- Use cases: enterprise document QA, customer support, research assistants.
+
+
+CHAPTER 5: COMPUTER VISION
+----------------------------
+
+Computer Vision enables machines to interpret visual information from the world.
+
+Key Tasks:
+- Image Classification: assigning a label to an image.
+- Object Detection: locating and classifying objects within an image (YOLO, Faster R-CNN).
+- Semantic Segmentation: classifying every pixel in an image.
+- Instance Segmentation: distinguishing individual object instances.
+- Pose Estimation: detecting human body key points.
+
+Recent advances:
+- Vision Transformers (ViT): applying transformer architecture to images.
+- CLIP (Contrastive Language-Image Pre-training): connecting images and text.
+- SAM (Segment Anything Model): universal image segmentation.
+
+
+CHAPTER 6: AI ETHICS AND RESPONSIBLE AI
+-----------------------------------------
+
+Key concerns in AI ethics:
+- Bias and Fairness: AI systems can inherit and amplify biases from training data.
+- Transparency: users should understand how AI systems make decisions.
+- Privacy: AI systems must handle personal data responsibly.
+- Accountability: clear responsibility when AI systems cause harm.
+- Environmental Impact: training large AI models consumes significant energy.
+
+Frameworks and guidelines:
+- EU AI Act: risk-based regulation of AI systems.
+- NIST AI Risk Management Framework.
+- UNESCO Recommendation on the Ethics of AI.
+- Google's AI Principles.
+- OpenAI's safety research programme.
+
+Best practices:
+- Regular bias audits of training data and model outputs.
+- Model interpretability techniques (SHAP, LIME, attention visualisation).
+- Red teaming and adversarial testing.
+- Human-in-the-loop systems for high-stakes decisions.
+
+
+CHAPTER 7: VECTOR DATABASES AND EMBEDDINGS
+--------------------------------------------
+
+Embeddings are dense numerical representations of data (text, images, etc.) in a high-dimensional vector space.
+
+Popular Embedding Models:
+- sentence-transformers/all-MiniLM-L6-v2: lightweight, fast, 384-dimensional embeddings.
+- OpenAI text-embedding-3-small: 1536 dimensions, high quality.
+- Cohere embed-v3: multilingual support.
+
+Vector Databases:
+- FAISS (Facebook AI Similarity Search): efficient similarity search library.
+- Pinecone: managed vector database service.
+- Weaviate: open-source vector search engine.
+- ChromaDB: lightweight, developer-friendly vector store.
+- Qdrant: high-performance vector database.
+- Milvus: distributed vector database for enterprise use.
+
+Similarity Metrics:
+- Cosine Similarity: measures the angle between vectors (most common for text).
+- Euclidean Distance: measures straight-line distance.
+- Dot Product: measures alignment of vectors.
+
+
+CHAPTER 8: LARGE LANGUAGE MODELS (LLMs)
+-----------------------------------------
+
+LLMs are large-scale transformer models trained on vast text corpora.
+
+Notable Models:
+- GPT-4 / GPT-4.1 (OpenAI): state-of-the-art general-purpose LLM.
+- Gemini 2.5 (Google DeepMind): multimodal, long-context capabilities.
+- Claude 3 (Anthropic): emphasis on safety and helpfulness.
+- LLaMA 3 (Meta): open-source foundation model.
+- Mistral (Mistral AI): efficient open-source models.
+
+Key Concepts:
+- Pre-training: learning language patterns from massive datasets.
+- Fine-tuning: adapting the model to specific tasks.
+- RLHF (Reinforcement Learning from Human Feedback): aligning models with human preferences.
+- Prompt Engineering: crafting effective prompts for desired outputs.
+- Context Window: maximum input length the model can process.
+- Temperature: controls randomness in generation (0 = deterministic, 1 = creative).
+- Tokenisation: BPE (Byte Pair Encoding), SentencePiece, tiktoken.
+
+Challenges:
+- Hallucination: generating plausible but incorrect information.
+- Cost: training and inference can be expensive.
+- Latency: large models may have slow response times.
+- Safety: preventing harmful or biased outputs.

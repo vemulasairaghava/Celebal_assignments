@@ -1,0 +1,83 @@
+RESUME — ALEX JOHNSON
+==============================
+
+CONTACT INFORMATION
+-------------------
+Name: Alex Johnson
+Email: alex.johnson@email.com
+Phone: +1 (555) 123-4567
+Location: San Francisco, CA, USA
+LinkedIn: linkedin.com/in/alexjohnson
+GitHub: github.com/alexjohnson
+
+PROFESSIONAL SUMMARY
+---------------------
+Senior Software Engineer with 8+ years of experience specialising in backend systems, distributed computing, and machine learning infrastructure. Proven track record of designing and deploying scalable microservices handling 10M+ requests/day. Passionate about building reliable, high-performance systems using Python, Go, and cloud-native technologies.
+
+WORK EXPERIENCE
+---------------
+
+Senior Software Engineer — TechNova Inc.
+January 2021 – Present | San Francisco, CA
+- Architected and deployed a real-time recommendation engine serving 5M daily active users, improving click-through rates by 32%.
+- Led a team of 6 engineers to migrate monolithic services to Kubernetes-based microservices, reducing deployment time from 4 hours to 15 minutes.
+- Designed a distributed data pipeline using Apache Kafka and Apache Spark processing 2TB of data daily.
+- Implemented CI/CD pipelines with GitHub Actions and ArgoCD, achieving 99.9% deployment success rate.
+- Mentored 4 junior engineers and conducted 50+ technical interviews.
+
+Software Engineer — DataStream Analytics
+June 2018 – December 2020 | New York, NY
+- Built a real-time anomaly detection system using Python and TensorFlow, reducing false positives by 45%.
+- Developed RESTful APIs with FastAPI serving 3M requests/day with p99 latency under 50ms.
+- Optimised PostgreSQL queries reducing average response time by 60%.
+- Contributed to an open-source ETL framework (1,200+ GitHub stars).
+
+Junior Software Engineer — CodeCraft Solutions
+August 2016 – May 2018 | Austin, TX
+- Developed internal tools using Django and React, used by 200+ employees daily.
+- Automated testing pipelines, increasing test coverage from 40% to 85%.
+- Participated in on-call rotation and resolved 100+ production incidents.
+
+EDUCATION
+---------
+Master of Science in Computer Science
+Stanford University — 2016
+Focus: Distributed Systems and Machine Learning
+GPA: 3.9/4.0
+
+Bachelor of Science in Computer Engineering
+University of Texas at Austin — 2014
+GPA: 3.7/4.0
+
+TECHNICAL SKILLS
+----------------
+Languages: Python, Go, Java, SQL, JavaScript, TypeScript
+Frameworks: FastAPI, Django, Flask, React, Next.js
+Databases: PostgreSQL, MongoDB, Redis, Elasticsearch, DynamoDB
+Cloud: AWS (EC2, S3, Lambda, EKS), GCP (GKE, BigQuery), Azure
+DevOps: Docker, Kubernetes, Terraform, Helm, GitHub Actions, ArgoCD
+ML/AI: TensorFlow, PyTorch, scikit-learn, Hugging Face, LangChain
+Tools: Git, Linux, Kafka, Spark, Airflow, Grafana, Prometheus
+
+CERTIFICATIONS
+--------------
+- AWS Solutions Architect – Professional (2023)
+- Google Cloud Professional Data Engineer (2022)
+- Certified Kubernetes Administrator (CKA) (2021)
+
+PUBLICATIONS
+------------
+- "Scalable Anomaly Detection in Streaming Data" — IEEE Conference on Big Data, 2019
+- "Efficient Microservice Communication Patterns" — ACM Computing Surveys, 2022
+
+LANGUAGES
+---------
+- English (Native)
+- Spanish (Conversational)
+- Mandarin (Basic)
+
+HOBBIES
+-------
+- Open-source contributions (500+ GitHub contributions in 2024)
+- Technical blogging (15,000+ monthly readers)
+- Rock climbing and marathon running
